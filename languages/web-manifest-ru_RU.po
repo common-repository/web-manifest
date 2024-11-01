@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: Web Manifest\n"
+"POT-Creation-Date: 2017-12-13 04:07+0500\n"
+"PO-Revision-Date: 2017-12-13 04:12+0500\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: webmanifest.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: ru_RU\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: options-page.php:20 options-page.php:70
+msgid "Web Manifest Settings"
+msgstr "Настройки веб-манифеста"
+
+#. Plugin Name of the plugin/theme
+#: options-page.php:21
+msgid "Web Manifest"
+msgstr "Веб-манифест"
+
+#: options-page.php:45
+msgid "Reset to default settings?"
+msgstr "Сбросить до настроек по умолчанию?"
+
+#: options-page.php:73
+msgid ""
+"Web manifest provide the ability to save a site bookmark to a mobile "
+"device's home screen and define its appearance at launch, so it will looks "
+"like an application."
+msgstr ""
+"Веб-манифест предоставляет возможность сохранить закладку сайта на главном "
+"экране мобильного устройства и определяет его внешний вид при запуске. Сайт "
+"будет выглядеть как приложение."
+
+#: options-page.php:74
+msgid "More info"
+msgstr "Подробнее"
+
+#: options-page.php:90
+msgid "Name"
+msgstr "Название"
+
+#: options-page.php:95
+msgid ""
+"The name to be displayed to the user, for example among a list of an "
+"applications or as a label for an icon. Recommended length is 45 characters "
+"or less."
+msgstr ""
+"Название, предназначенное для отображения, например, в списке приложений или "
+"как подпись к иконке. Рекомендованная длина - 45 символов или меньше."
+
+#: options-page.php:104
+msgid "Short Name"
+msgstr "Краткое название"
+
+#: options-page.php:109
+msgid ""
+"A short name for use where there is insufficient space to display the full "
+"name. Recommended length is 10 characters or less."
+msgstr ""
+"Краткое название используется там, где недостаточно места для отображения "
+"полного названия. Рекомендованная длина - 10 символов или меньше."
+
+#: options-page.php:118
+msgid "Description"
+msgstr "Описание"
+
+#: options-page.php:123
+msgid "General description of the site. Maximum length is 1024 characters."
+msgstr "Общее описание сайта. Максимальная длина - 1024 символа."
+
+#: options-page.php:132
+msgid "Language"
+msgstr "Язык"
+
+#: options-page.php:137
+msgid ""
+"Primary language for the previous parameters. Taken from the site settings."
+msgstr "Основной язык для предыдущих параметров. Берется из настроек сайта."
+
+#: options-page.php:146
+msgid "Text Direction"
+msgstr "Направление текста"
+
+#: options-page.php:151
+msgid ""
+"Text direction for the previous parameters. Based on the language parameter."
+msgstr ""
+"Направление текста для предыдущих параметров. Определяется на основании "
+"языка."
+
+#: options-page.php:160
+msgid "Icon"
+msgstr "Иконка"
+
+#: options-page.php:167
+msgid "Change image"
+msgstr "Изменить изображение"
+
+#: options-page.php:168
+msgid "Site icon preview."
+msgstr "Предпросмотр иконки сайта."
+
+#: options-page.php:173
+msgid "No image selected"
+msgstr "Изображение не выбрано"
+
+#: options-page.php:175 options-page.php:176
+msgid "Select image"
+msgstr "Выбрать изображение"
+
+#: options-page.php:181
+msgid "Site icon (favicon)."
+msgstr "Иконка сайта (фавикон)."
+
+#: options-page.php:197
+msgid "Start URL"
+msgstr "Начальный URL"
+
+#: options-page.php:222
+msgid "URL that loads when a user launches the site from a homescreen."
+msgstr ""
+"URL, который загружается, когда пользователь открыл сайт используя закладку."
+
+#: options-page.php:228
+msgid "Query:"
+msgstr "Запрос:"
+
+#: options-page.php:234
+msgid "Fragment:"
+msgstr "Фрагмент:"
+
+#: options-page.php:240
+msgid "Full URL:"
+msgstr "Полный URL:"
+
+#: options-page.php:256
+msgid "Display"
+msgstr "Отображение"
+
+#: options-page.php:266
+msgid "The preferred display mode for the site."
+msgstr "Предпочтительный режим отображения сайта."
+
+#: options-page.php:275
+msgid "Orientation"
+msgstr "Ориентация"
+
+#: options-page.php:289
+msgid "Default site orientation."
+msgstr "Ориентация по умолчанию."
+
+#: options-page.php:298
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: options-page.php:303
+msgid "The expected background color before the stylesheet has loaded."
+msgstr "Ожидаемый цвет фона до загрузки стилей."
+
+#: options-page.php:312
+msgid "Theme Color"
+msgstr "Цветовая тема"
+
+#: options-page.php:317
+msgid "Default theme color."
+msgstr "Основной цвет по умолчанию."
+
+#: options-page.php:400
+msgid "Reset"
+msgstr "Сбросить"
+
+#: webmanifest.php:58
+msgid "Home"
+msgstr "Главная"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/web-manifest"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Allows to create and configure a web-app manifest file (manifest.json)."
+msgstr "Позволяет создать и настроить веб-манифест (manifest.json)."
+
+#. Author of the plugin/theme
+msgid "Andrey Litvinov (FRO1D)"
+msgstr "Андрей Литвинов (FRO1D)"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/fro1d"
+msgstr ""
